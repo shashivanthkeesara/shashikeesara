@@ -1,0 +1,64 @@
+<html>
+<title> Frog Leaping program </title>
+<head>
+<style>
+
+div1{	position: absolute;
+		z-index: 1;
+		width: 99%;
+	  	height: 100px;
+		background-color: blue;
+		box-shadow:1px 4px 5px #888888;
+}
+
+div2{	
+font-size:16px;
+position: fixed;
+margin-top: 300px;
+margin-left: 320px;    
+color: blue;
+}
+
+
+input.res{
+position: absolute;
+margin-top: 120px;
+	
+}
+		
+.b{
+	margin-top: 200px;
+	margin-left: 300px;
+	position: absolute;
+	
+}
+
+
+</style>
+<script>
+function textDis()
+{
+document.getElementById("textDis1").innerHTML="Frog will be able to leap to destination";
+}
+
+</script>
+<div1>
+<marquee behavior="alternate"><h1 style="color:white"> Frog Leaping Program </h1></marquee>
+</div1>
+</head>
+
+<body style="background-image:url('frog.gif');background-repeat:no-repeat;background-position:left bottom;">
+<form class="b">
+	<table style="color: white;">
+			<tr><td><input type="button" value="Lets Leap" onclick="textDis()"></td></tr>
+			</table>
+</form>
+<div2> <p id="textDis1"> </p> </div2>
+<p style="position:absolute;top: 150px;right: 16px;font-size:20px;">
+<img src="sharingHand.gif" style="width:35px;height:35px;"></img>
+Share on: 
+<img src="faceBook.png" style="width:25px;height:25px;"></img>
+<img src="Bird_Twit.png" style="width:25px;height:25px;"></img>
+</p>
+</body>
+</html>
